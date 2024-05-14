@@ -934,7 +934,7 @@ function page_accueil($param = 'no')
 	else if ($defaultroom == - 1)
 		$page_accueil = 'app.php?p=jour&area='.$defaultarea;
 	else if ($defaultroom == - 2)
-		$page_accueil = 'pp.php?p=mois_all&area='.$defaultarea;
+		$page_accueil = 'app.php?p=mois_all&area='.$defaultarea;
 	else if ($defaultroom == - 3)
 		$page_accueil = 'app.php?p=mois_all&area='.$defaultarea;
 	else if ($defaultroom == -4)
